@@ -1,7 +1,7 @@
 # Machine Learning Project
 
 ```
-conda update -n base -c defaults conda
+conda update -n MLproj -c defaults conda
 
 ```
 
