@@ -1,5 +1,9 @@
 # Machine Learning Project
 
+### How to Run?
+
+Steps:
+
 ```
 conda update -n MLproj -c defaults conda
 
