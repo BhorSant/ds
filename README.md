@@ -34,3 +34,25 @@ pip install -r requirements.txt
 7. update the pipeline
 8. update the main.py
 9. update the app.py
+
+533267118224.dkr.ecr.ap-south-1.amazonaws.com/mlproject
+
+
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+```
+
+
+```
+sudo sh get-docker.sh
+```
+
+
+```
+sudo usermod -aG docker ubuntu
+```
+
+
+```
+newgrp docker
+```
