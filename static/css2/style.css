@@ -1,6 +1,10 @@
 body {
 	margin:  0;
 }
+.site-heading {
+    text-align: center;
+}
+
 .page-content {
 	width: 100%;
 	margin:  0 auto;
@@ -32,6 +36,69 @@ body {
 	font-size: 16px;
 	position: relative;
 }
+.site-heading {
+    text-align: center;
+    color: white; /* Change text color to white */
+    background-color: #007bff; /* Change background color to blue */
+    padding: 20px; /* Add padding for better readability */
+}
+/* Change color of navbar-brand (Home) */
+/* Home button */
+.navbar-brand {
+    color: #000; /* Change text color to black */
+    margin-right: auto; /* Push the button to the left */
+}
+
+.navbar-brand:hover {
+    color: #333; /* Change hover color to a darker shade of black */
+}
+
+/* Menu button */
+.navbar-toggler {
+    color: #000; /* Change text color to black */
+    margin-left: 90%; /* Push the button to the right */
+}
+
+.navbar-toggler:hover {
+    color: #333; /* Change hover color to a darker shade of black */
+}
+/* Form Styles */
+.form-v9-content {
+    background-image: url('static/assets/img/form-v9.jpg');
+    background-size: cover;
+    padding: 100px 0; /* Add padding for better spacing */
+    text-align: center;
+    color: #fff; /* Change text color to white */
+}
+
+.form-detail {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-text {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.register:hover {
+    background-color: #0056b3;
+}
+
 .form-v9-content .form-detail {
     padding: 30px 135px 30px 100px;
 	position: relative;
