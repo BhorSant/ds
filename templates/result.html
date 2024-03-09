@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Quality Prediction</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a class="logo" href="/">Wine Quality Prediction</a>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1>Check Wine Quality</h1>
+                <p>Predict wine quality with our web app</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form action="/predict" method="post" class="prediction-form">
+                <div class="form-group">
+                    <label for="fixed_acidity">Fixed Acidity:</label>
+                    <input type="text" id="fixed_acidity" name="fixed_acidity" required>
+                </div>
+                <div class="form-group">
+                    <label for="volatile_acidity">Volatile Acidity:</label>
+                    <input type="text" id="volatile_acidity" name="volatile_acidity" required>
+                </div>
+                <!-- Add more input fields for other features -->
+                <button type="submit">Predict</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul class="social-links">
+                <li><a href="https://www.linkedin.com/in/santosh-bhor-474981207/"><i class="fab fa-linkedin"></i></a></li>
+                
+                <li><a href="https://github.com/BhorSant"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <p>&copy; 2024 Wine Quality Prediction. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
